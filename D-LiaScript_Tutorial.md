@@ -312,21 +312,106 @@ Quellen:
 
 #### 1. Absätze und Formatierungen
 
+Dies ist ein Satz. Und ein zweiter Absatz
+
+Für einen Absatz bruache ich eine Leerzeilen
+_kursiv_ -- *auch kursiv*
+
+__Fett__ -- **auch _fett_**
+
+___sehr wichtig___
+
+~durchgestrichen~
+
+~~unterstrichen~~
+
+~~~durchgestrichen und unterstrichen~~~
+
+
+
+**LiaScript**
+
+x^2^
+
 #### 2. Listen
+
+* Element 1
+
+Das ist ein zweiter Absatz.
+
+    -  Unterabschnitt 1
+
+    -  Unterabschnitt 2
+
+* Element 2
+
+1. Das ist wichtig.
+    Auch das gehört dazu
+
+2. das ist weniger wichtig
+
 
 #### 3. Blockquotes
 
+> "Tolles Zitat.
+>   Zweite Zeile des Zitats"
+>
+> ** _Mr. X_ **
+
 #### 4. Tabellen
+
+| Header  |2         |rechts       |
+| --------- | ---------| -------|
+| Elemenet 1 | Elemenet 2 | `code`|
+| 12        | ** 123**    |  s f[x]      |
+
+
+
+
 
 #### 5. Verweise
 
+https://www.tib.eu/de/
+
+[TIB Website](https://www.tib.eu/de/)
+
+fett **[TIB Website](https://www.tib.eu/de/)**
+
+Verweis innerhalb des LiaScriptDokuments:
+[Quellen](#Multimedia)
+
 #### 6. Bilder
+
+Wie füge ich ein Bild eines Ossuariums ein?
+
+Mit Bildunterschrift
+
+![Bild](https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Sedletz-Ossarium.jpg/180px-Sedletz-Ossarium.jpg "**Abb.:** Ossuarium Kronleuchter von [Wikipedia](https://de.wikipedia.org/wiki/Beinhaus_Sedlec)")
+
+Ohne Bildunterschrift
+
+![Kelch](https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Sedlec_Ossuary_%2817167200279%29.jpg/160px-Sedlec_Ossuary_%2817167200279%29.jpg)
 
 #### 7. Trennlinien
 
+
+Teil A
+
+---
+
+Teil 5
+
+
 #### 8. Code
 
+``` js
+// Drucke Hallo Welt!
+console.log ("Hallo Welt")
+```
+
 #### 9. HTML
+
+Man kann auch html nutzen zusätzlich zu markdown:
 
 Übersicht über alle HTML-Tags: https://www.w3schools.com/TAgs/default.asp
 
@@ -347,6 +432,12 @@ https://www.youtube.com/watch?v=lhSjYT7pWkw
 ### Multimedia
 
 Verweis -> !Bild --> ?Audio --> !?Video --> ??Unbekannt
+
+!?[Rückenschule Youtube](https://www.youtube.com/watch?v=1xeYN8J0DLo&list=PLSoj2oKGBxkVbJQfK2BcYRsikTcm2iHBP&index=10)
+
+?[Cello Suite](https://upload.wikimedia.org/wikipedia/commons/4/43/JOHN_MICHEL_CELLO-J_S_BACH_CELLO_SUITE_1_in_G_Prelude.ogg)
+
+![Bach](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Johann_Sebastian_Bach.jpg/120px-Johann_Sebastian_Bach.jpg)
 
 #### Bilder und Texte
 
